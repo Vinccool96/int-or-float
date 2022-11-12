@@ -1,0 +1,31 @@
+{
+  "name": "int-or-float",
+  "version": "1.0.0",
+  "description": "Verify if a number is an integer or a float.",
+  "keywords": [
+    "ts",
+    "typescript",
+    "js",
+    "javascript",
+    "number",
+    "int",
+    "integer",
+    "float"
+  ],
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Vinccool96/int-or-float.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn run build && yarn pack"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
